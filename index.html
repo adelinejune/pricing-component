@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <main class="wrapper">
+        <header>
+            <h1>Simple, trafic-based pricing</h1>
+            <p>Sign-up for our 30-day trial. No credit card required</p>
+        </header>
+        <div class="card">
+            <div class="pricing">
+                <div class="pricing-component">
+                        <p class="page-view"><span class="view-number"></span> Pageviews</p>
+                        <p class="price"><span class="dollar">$<span class="amount">16</span>.00</span> / month</p>
+                    <input type="range" value="0" min="1" max="5" step="1" class="range">
+                </div>
+                <div class="pricing-switch">
+                    <div class="billing">
+                        <span>Monthly Billing</span>
+                        <label class="switch">
+                            <input class="bill-switch" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                        <span>Yearly Billing</span>
+                    </div>
+                    <span class="lg-view discount">25% discount</span>
+                    <span class="sm-view discount">-25%</span>
+                </div>
+            </div>
+            <div class="benefit">
+                <ul>
+                    <li>Unlimited websites</li>
+                    <li>100% data ownership</li>
+                    <li>Email reports</li>
+                </ul>
+                <button>Start my trial</button>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
